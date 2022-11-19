@@ -1,0 +1,20 @@
+.layout{
+    @apply px-5 pt-0;
+
+
+    .heading{
+        @apply text-xl font-semibold mb-5 mt-20;
+    }
+    
+    header{
+        @apply fixed top-0 w-11/12 bg-lime-400 rounded-full;
+        nav{
+            @apply flex items-center justify-center m-5;
+
+            a{
+                @apply text-lime-600 mx-4 font-semibold transition-colors duration-300 ease-in-out
+                border-solid;
+            }
+        }
+    }
+}

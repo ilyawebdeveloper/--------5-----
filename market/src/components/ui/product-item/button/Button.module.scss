@@ -1,0 +1,22 @@
+.button{
+    @apply
+     bg-lime-400 
+     block
+     border-t-teal-800
+     border
+     border-solid
+     uppercase
+     px-7
+     py-3
+     w-10/12
+     mx-auto
+     mt-5
+     transition-colors
+     duration-500
+     ease-in-out
+    ;
+
+    &:hover{
+        @apply bg-[#b7e919]
+    }
+}

@@ -1,0 +1,16 @@
+.item{
+    .image{
+        @apply border border-solid mb-4 w-full h-40 bg-cover bg-center bg-no-repeat;
+    }
+    .description{
+        @apply font-light text-sm;
+    }
+
+    > .heading{
+        @apply text-xl uppercase mb-2 font-semibold;
+    }
+
+    > .price{
+        @apply text-lg;
+    }
+}
